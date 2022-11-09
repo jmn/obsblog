@@ -13,7 +13,7 @@ function copy_vault {
     # git clone https://github.com/MYORG/MYREPO ./vault
 
     # update submodule
-    git submodule add git@github.com:/jmn/vault 
+    git submodule add -f git@github.com:/jmn/vault ./vault
     git submodule update --remote
     # git submodule foreach git pull origin main
     ##### CHANGE STOP HERE.

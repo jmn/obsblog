@@ -16,7 +16,7 @@ function copy_vault {
     git submodule init 
     git submodule update --remote
     # git submodule foreach git pull origin main
-    ##### CHANGE STOP HERE
+    ##### CHANGE STOP HERE.
 }
 
 ## This function is called after all files are converted but before calling the Hugo command

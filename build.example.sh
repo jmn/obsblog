@@ -3,7 +3,7 @@
 set -e
 
 ###################### User configured variables (required)
-BLOG_PATH="SET ME"
+BLOG_PATH="public"
 
 function copy_vault {
     ##### CHANGE START HERE
@@ -13,9 +13,8 @@ function copy_vault {
     # git clone https://github.com/MYORG/MYREPO ./vault
 
     # update submodule
-
-    echo "ADD YOUR CODE TO CLONE OR COPY YOUR VAULT HERE"
-    exit 1
+    git submodule init 
+    git submodule update
     ##### CHANGE STOP HERE
 }
 

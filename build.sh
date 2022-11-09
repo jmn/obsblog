@@ -15,7 +15,7 @@ function copy_vault {
     # update submodule
     git submodule init 
     git submodule update --recursive
-    # git submodule foreach git pull origin main
+    git submodule foreach git pull origin main
     ##### CHANGE STOP HERE
 }
 

@@ -2,3 +2,13 @@ baseURL = 'https://pub.jmnorlund.net/'
 languageCode = 'en-us'
 title = 'jmn public notes'
 theme = "PaperMod"
+
+
+[params]
+  google_fonts = [
+    ["Fira Code", "400, 700"],
+    ["Overpass Mono", "400, 400i, 700, 700i"]
+  ]
+
+  heading_font = "Fira Code"
+  body_font = "Overpass Mono"

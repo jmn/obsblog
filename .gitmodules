@@ -4,4 +4,4 @@
 	branch = main
 [submodule "hugoroot/themes/PaperMod"]
 	path = hugoroot/themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
+ 	url = https://github.com/jmn/hugo-PaperMod.git

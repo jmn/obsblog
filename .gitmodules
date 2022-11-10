@@ -2,3 +2,6 @@
 	path = vault
 	url = https://github.com/jmn/vault.git
 	branch = main
+[submodule "hugoroot/themes/PaperMod"]
+	path = hugoroot/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

@@ -1,4 +1,4 @@
 [submodule "vault"]
 	path = vault
-	url = git@github.com:/jmn/vault
+	url = https://github.com/jmn/vault.git
 	branch = main

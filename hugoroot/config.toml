@@ -1,4 +1,4 @@
 baseURL = 'https://public.jmnorlund.net/'
 languageCode = 'en-us'
 title = 'jmn public notes'
-theme = "xmin"
+theme = "PaperMod"

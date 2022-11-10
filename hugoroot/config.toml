@@ -1,4 +1,4 @@
-baseURL = 'https://public.jmnorlund.net/'
+baseURL = 'https://pub.jmnorlund.net/'
 languageCode = 'en-us'
 title = 'jmn public notes'
 theme = "PaperMod"

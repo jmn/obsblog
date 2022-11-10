@@ -54,13 +54,13 @@ copy_vault
 
 echo "🍿 Preparing hugo root..."
 mkdir -p $HUGO_ROOT/layouts/_default/_markup/
-cp -R ./hugofiles/* $HUGO_ROOT/layouts/_default/_markup
+cp -Rv ./hugofiles/* $HUGO_ROOT/layouts/_default/_markup
 
 echo "🍿 Preparing hugo content..."
 rm -rf $HUGO_ROOT/content
 mkdir -p $HUGO_ROOT/content
 # $EXPORT_BINARY "$VAULT_PATH" --start-at "$VAULT_PATH$BLOG_PATH" --frontmatter=always $HUGO_ROOT/content/
-cp -R "$VAULT_PATH$BLOG_PATH" $HUGO_ROOT/CONTENT
+cp -Rv "$VAULT_PATH$BLOG_PATH" $HUGO_ROOT/content/
 
 echo "✅ Converted Obsidian posts into Hugo compatible Markdown"
 

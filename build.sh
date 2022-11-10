@@ -72,7 +72,7 @@ before_build_hook
 
 echo "🏗 Building blog..."
 
-hugo -D > /dev/null
+hugo -D 
 popd > /dev/null
 
 echo "✅ Blog built!!! Have fun!"

@@ -2,7 +2,7 @@ baseURL = 'https://pub.jmnorlund.net/'
 languageCode = 'en-us'
 title = 'jmn public notes'
 theme = "PaperMod"
-
+ignoreErrors = ["error-remote-getjson"]
 
 [params]
   google_fonts = [

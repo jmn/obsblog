@@ -11,9 +11,9 @@
         {{.Content}}
       </div>
       <div>
-        {{ range first 10 .Paginator.Pages }}
+        {{ range first 10 .Site.RegularPages }}
             {{ .Render "summary"}}
         {{ end }}
       </div>
-   </main>
+    </main>
 {{ end }}

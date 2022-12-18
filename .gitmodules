@@ -1,8 +1,8 @@
 [submodule "vault"]
 	path = vault
-	url = https://github.com/jmn/vault.git
+	url = git@github.com:/jmn/vault.git
 	branch = main
 [submodule "hugoroot/themes/PaperMod"]
 	path = hugoroot/themes/PaperMod
- 	url = https://github.com/jmn/hugo-PaperMod.git
+ 	url = git@github.com:/jmn/hugo-PaperMod.git
 	branch = main

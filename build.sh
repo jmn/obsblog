@@ -10,7 +10,7 @@ function copy_vault {
     ## Examples:
     #
     # github clone repo
-    # git clone https://github.com/MYORG/MYREPO ./vault
+    git clone https://github.com/jmn/vault ./vault
 
     # update submodule
     git submodule init

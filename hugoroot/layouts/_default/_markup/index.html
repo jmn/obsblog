@@ -11,7 +11,7 @@
         {{.Content}}
       </div>
       <div>
-        {{ range first 10 .Site.RegularPages }}
+        {{ range first 10 .Site.RegularPages.ByPublishDate }}
             {{ .Render "summary"}}
         {{ end }}
       </div>

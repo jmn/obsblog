@@ -18,6 +18,7 @@ function copy_vault {
     # git submodule update --init --recursive
    
     git submodule foreach git pull origin main
+    ls vault
     ##### CHANGE STOP HERE.
 }
 

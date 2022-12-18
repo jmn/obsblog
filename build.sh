@@ -14,10 +14,10 @@ function copy_vault {
     # git clone https://github.com/jmn/vault.git ./vault
 
     # update submodule
-    git submodule sync --recursive
-    git submodule update --init --recursive
+    # git submodule sync --recursive
+    # git submodule update --init --recursive
    
-    # git submodule foreach git pull origin main
+    git submodule foreach git pull origin main
     ##### CHANGE STOP HERE.
 }
 
